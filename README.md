@@ -25,3 +25,7 @@ answer, including your reasoning, to this markdown file.
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+## My analysis 
+
+My implementation first initializes a stack to track nodes to explore and a set called "visit" to mark nodes as visited. Inside the while loop, the algorithm pops elements from the stack, checks if the popped node is the targetnode, and returns the path if found. If not, it marks and explores unvisited neighbors, pushing them onto the stack. If the loop completes without finding a path to the target node, the function returns an empty array to indicate that no path was found. The overall worst-case time complexity is $\Theta$ $\(|V| + |E|) $, where $V$ is the number of vertices and $E$ is the number of edges in the graph. 
