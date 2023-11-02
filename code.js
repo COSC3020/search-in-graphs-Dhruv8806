@@ -38,7 +38,6 @@ const result = depthFirstSearch(graph, startNode, targetNode);
 
 console.log("Path found:", result);
 
-
 /*
 Sources Used:
 https://www.programiz.com/dsa/graph-dfs
